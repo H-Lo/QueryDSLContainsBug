@@ -1,6 +1,16 @@
-# Setup
+# Setup & run
 
-The only thing needed is an empty database. Can be configured here: persistence.xml, hibernate.cfg.xml
+## Setup
+
+Import the project into Eclipse.
+The only thing needed is an empty database.
+Can be configured here: persistence.xml, hibernate.cfg.xml
+
+## Run
+
+Right click on `main()` of `App.java` and "Run as Java application"
+
+# Notes
 
 ## Note #1
 
