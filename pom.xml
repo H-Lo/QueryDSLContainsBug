@@ -76,23 +76,23 @@
 		    <version>${jackson.version}</version><!--$NO-MVN-MAN-VER$-->
 		</dependency>
 
-			<dependency>
-			    <groupId>io.github.openfeign.querydsl</groupId>
-			    <artifactId>querydsl-core</artifactId>
-			    <version>${openfeign.querydsl.version}</version>
-			</dependency>
+		<dependency>
+		    <groupId>io.github.openfeign.querydsl</groupId>
+		    <artifactId>querydsl-core</artifactId>
+		    <version>${openfeign.querydsl.version}</version>
+		</dependency>
 
-			<dependency>
-			    <groupId>io.github.openfeign.querydsl</groupId>
-			    <artifactId>querydsl-jpa</artifactId>
-			    <version>${openfeign.querydsl.version}</version>
-			</dependency>
+		<dependency>
+		    <groupId>io.github.openfeign.querydsl</groupId>
+		    <artifactId>querydsl-jpa</artifactId>
+		    <version>${openfeign.querydsl.version}</version>
+		</dependency>
 
-			<dependency>
-			    <groupId>io.github.openfeign.querydsl</groupId>
-			    <artifactId>querydsl-apt</artifactId>
-			    <version>${openfeign.querydsl.version}</version>
-			</dependency>
+		<dependency>
+		    <groupId>io.github.openfeign.querydsl</groupId>
+		    <artifactId>querydsl-apt</artifactId>
+		    <version>${openfeign.querydsl.version}</version>
+		</dependency>
 
 	</dependencies>
 
