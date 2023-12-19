@@ -1,3 +1,3 @@
+# Setup
 
-
-https://datmt.com/backend/java/using-hibernate-in-standalone-app-without-spring-using-mariadb/
+The only thing needed is an empty database. Can be configured here: persistence.xml, hibernate.cfg.xml
