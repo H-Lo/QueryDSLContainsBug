@@ -4,7 +4,7 @@ The only thing needed is an empty database. Can be configured here: persistence.
 
 ## Note
 
-Eclipse has a but and displays an error about User class:
+Eclipse has a bug and displays an error about User class:
 
 > Class "net.horvoje.querydsl.bugs.contains.entity.User" is listed in the persistence.xml file, but is not annotated
 
