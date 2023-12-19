@@ -25,17 +25,6 @@ public class App {
 		}
     }
 
-	private static void case2(final UserExtendRepository repo) {
-		try {
-			// org.hibernate.query.QueryArgumentException:
-			// Argument [ROLE_ADMIN] of type [net.horvoje.querydsl.bugs.contains.enums.UserRole] did not match parameter type [java.util.Set (n/a)]
-			repo.findUsersByRoleQueryDSL2(UserRole.ROLE_ADMIN);
-		}
-		catch (final org.hibernate.query.QueryArgumentException e) {
-			System.out.println(); e.printStackTrace(); System.out.println();
-		}
-	}
-
 	private static void case1(final UserExtendRepository repo) {
 		try {
 			// org.hibernate.query.SemanticException:
@@ -43,6 +32,17 @@ public class App {
 			repo.findUsersByRoleQueryDSL1(UserRole.ROLE_ADMIN);
 		}
 		catch (final java.lang.IllegalArgumentException e) {
+			System.out.println(); e.printStackTrace(); System.out.println();
+		}
+	}
+
+	private static void case2(final UserExtendRepository repo) {
+		try {
+			// org.hibernate.query.QueryArgumentException:
+			// Argument [ROLE_ADMIN] of type [net.horvoje.querydsl.bugs.contains.enums.UserRole] did not match parameter type [java.util.Set (n/a)]
+			repo.findUsersByRoleQueryDSL2(UserRole.ROLE_ADMIN);
+		}
+		catch (final org.hibernate.query.QueryArgumentException e) {
 			System.out.println(); e.printStackTrace(); System.out.println();
 		}
 	}
